@@ -18,8 +18,7 @@ import {
 import { FaLinux } from "react-icons/fa";
 
 // Import PNG images for Blender and DaVinci Resolve
-import BlenderLogo from "../../Assets/blender_logo.png";
-import DavinciLogo from "../../Assets/davinci.png";
+
 
 function Techstack() {
   return (
@@ -62,17 +61,6 @@ function Techstack() {
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <FaLinux />
-        </Col>
-      </Row>
-
-      {/* Other Tools Section (Blender & DaVinci) */}
-      <h2 style={{ textAlign: "center", marginBottom: "20px" }}>Other Tools</h2>
-      <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-        <Col xs={4} md={2} className="tech-icons">
-          <img src={BlenderLogo} alt="Blender" style={{ width: "182px", height: "55px" }} />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <img src={DavinciLogo} alt="DaVinci Resolve" style={{ width: "120px", height: "120px" }} />
         </Col>
       </Row>
     </>
